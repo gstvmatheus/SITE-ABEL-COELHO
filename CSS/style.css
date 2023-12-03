@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #363636;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-menu {
+    width: 100%;
+    height: 120px;
+    background-color: #F5F5F5;
+}
+
+img {
+    display: inline;
+    padding-top: 20px;
+}
+
+a, li {
+    color: #363636;
+    text-decoration: none;
+    display: inline;
+}
+
+.link-nav {
+    padding-left: 15px;
+}
