@@ -15,73 +15,95 @@ body {
     background-color: #F5F5F5;
 }
   
-  nav {
-    position: relative;
-  }
+nav {
+  position: relative;
+}
   
-  .logo {
-    width: 100px;
-    margin-top: 10px;
-    margin-left: 50px;
-  }
+.logo {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
   
-  .navbar-items {
-    position: absolute;
-    right: 14px;
-    height: 80px;
-    line-height: 80px;
-    margin: 0;
-    display: inline-block;
-  }
+.navbar-items {
+  position: absolute;
+  right: 14px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+  display: inline-block;
+}
   
-  .navbar-items li {
-    display: inline-block;
-    text-transform: uppercase;
-    margin-left: 30px;
-    font-size: 18px;
-    margin-top: 10px;
-  }
+.navbar-items li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 30px;
+  font-size: 18px;
+  margin-top: 10px;
+}
   
-  .navbar-items a {
-    color: #363636;
-    text-decoration: none;
-    transition: 0.5s;
-  }
+.navbar-items a {
+  color: #363636;
+  text-decoration: none;
+  transition: 0.5s;
+}
   
-  .navbar-items a:hover {
-    color: #ccc;
-  }
+.navbar-items a:hover {
+  color: #ccc;
+}
 
-  .a1 {
-    padding: 15px;
-  }
+.a1 {
+  padding: 15px;
+}
 
-  .main-banner {
-    background-image: url("/img/banner\ abel.jpg");
-    background-size: 100%;
-    background-position: center;
-    padding: 15%;
-  }
-  
-  .main-banner h1,
-  .main-banner p {
-    color: #fff;
-    text-align: center;
-    font-weight: bold;
-    text-shadow: #000 3px 2px 3px;
-  }
-  
-  .main-banner h1 {
-    font-size: 54px;
-  }
-  
-  .main-banner p {
-    font-size: 32px;
-  }
+.slider {
+  margin: 0 auto;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
 
-  .news {
-    text-align: center;
-    padding-top: 20px;
-    color: #F5F5F5;
-    font-size: 18px;
-  }
+.slides {
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 25%;
+  position: relative;
+  transition: 2s;
+}
+
+.slide img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -75%;
+}
+
+.news {
+  text-align: center;
+  padding-top: 20px;
+  color: #F5F5F5;
+  font-size: 18px;
+}
