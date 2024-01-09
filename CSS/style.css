@@ -5,15 +5,25 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%; 
+}
+
+:root {
+  --cor-branco1: #f5f5f5;
+  --cor-preto1: #363636;
+  --cor-cinza1: #ccc;
+}
+
 body {
-  background-color: #363636;
+  background-color: var(--cor-preto1);
   font-family: "Lato", sans-serif;
 }
 
 .navbar-container {
   width: 100%;
   height: 100%;
-  background-color: #f5f5f5;
+  background-color: var(--cor-branco1);
 }
 
 nav {
@@ -39,18 +49,18 @@ nav {
   display: inline-block;
   text-transform: uppercase;
   margin-left: 30px;
-  font-size: 18px;
+  font-size: 2.0rem;
   margin-top: 10px;
 }
 
 .navbar-items a {
-  color: #363636;
+  color: var(--cor-preto1);
   text-decoration: none;
   transition: 0.5s;
 }
 
 .navbar-items a:hover {
-  color: #ccc;
+  color: var(--cor-cinza1);
 }
 
 .a1 {
@@ -102,11 +112,15 @@ nav {
   margin-left: -75%;
 }
 
+.news {
+  padding: 25px 0;
+}
+
 .title-news {
   text-align: center;
-  color: #f5f5f5;
-  font-size: larger;
-  padding: 25px 0;
+  color: var(--cor-branco1);
+  font-size: 2.0rem;
+  padding-bottom: 25px;
 }
 
 .news-list {
@@ -121,8 +135,8 @@ nav {
 .news-item {
   width: 30%;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
-  color: #363636;
+  background-color: var(--cor-branco1);
+  color: var(--cor-preto1);
   padding: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -135,24 +149,24 @@ nav {
 }
 
 .news-item a:hover {
-  color: #ccc;
+  color: var(--cor-cinza1);
 }
 
 .news-item h3 {
-  font-size: 20px;
+  font-size: 2.0rem;
   margin: 0 0 10px 0;
 }
 
 .news-item p {
-  font-size: 16px;
+  font-size: 1.6rem;
   margin: 0;
 }
 
 .title-numbers {
   text-align: center;
-  background-color: #f5f5f5;
-  color: #363636;
-  font-size: larger;
+  background-color: var(--cor-branco1);
+  color: var(--cor-preto1);
+  font-size: 2.0rem;
   padding: 25px 0;
 }
 
@@ -163,37 +177,101 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #f5f5f5;
+  background-color: var(--cor-branco1);
 }
 
 .number-item {
   width: 30%;
   margin-bottom: 20px;
-  color: #363636;
+  color: var(--cor-preto1);
   padding: 10px 0 10px 10pxpx;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .number-item h3 {
-  font-size: 17,5px;
+  font-size: 1.75rem;
   margin: 0 0 10px 0;
 }
 
 span {
   color: #2E3094;
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 
+.history {
+  padding: 25px 0;
+}
+
+.title-history {
+  text-align: center;
+  color: var(--cor-branco1);
+  font-size: 2.0rem;
+  padding-bottom: 25px;
+}
+
+.our-history1 {
+  color: var(--cor-branco1);
+  font-size: 1.6rem;
+  width: 50%;
+  line-height: 2.5rem;
+  margin-left: 25%;
+  padding-bottom: 20px;
+}
+
+.our-history2 {
+  color: var(--cor-branco1);
+  font-size: 1.6rem;
+  width: 50%;
+  line-height: 2.5rem;
+  margin-left: 25%;
+}
+
+.provide {
+  background-color: var(--cor-branco1);
+  padding: 25px 0;
+}
+
+.title-provide {
+  text-align: center;
+  color: var(--cor-preto1);
+  font-size: 2.0rem;
+  padding-bottom: 25px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.we-provide {
+  text-align: center;
+  font-size: 1.6rem;
+  width: 50%;
+  line-height: 2.5rem;
+  margin-left: 25%;
+  list-style-type: none
+}
+
+.aviso1 {
+  color: var(--cor-branco1);
+  text-align: center;
+  font-size: 1.6rem;
+  width: 50%;
+  line-height: 2.5rem;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+
+
 .rodape {
-  background-color: #363636;
-  color: #f5f5f5;
+  background-color: var(--cor-preto1);
+  color: var(--cor-branco1);
   height: auto;
   width: 100%;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 .rodape a {
   text-decoration: none;
-  color: #f5f5f5;
+  color: var(--cor-branco1);
 }
 
 .rodape-div {
@@ -202,22 +280,25 @@ span {
   width: 100%;
   margin: auto;
   align-items: stretch;
-  padding: 25px 0 10px 10px;
+  padding: 25px 0 10px 0;
 }
+
 .rodape-div-1, .rodape-div-2, .rodape-div-3 {
   display: flex;
   width: calc(100% / 3 - 20px);
   padding: 10px;
 }
+
 .rodape span {
   font-size: 20px;
-  color: #363636;
+  color: var(--cor-preto1);
 }
+
 .rodape-direitos {
-  background-color: #f5f5f5;
-  padding: 10px;
+  background-color: var(--cor-branco1);
+  padding: 10px 0;
   text-align: center;
-  color: #363636;
+  color: var(--cor-preto1);
   width: 100%;
 }
 
@@ -244,5 +325,5 @@ span {
 }
 
 ::-webkit-scrollbar-track {
-  background: #EDECE9;
+  background: var(--cor-branco1);
 }
