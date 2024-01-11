@@ -23,7 +23,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.navbar-container {
+#navbar-container {
   width: 100%;
   height: 100%;
   background-color: var(--cor-branco1);
@@ -33,7 +33,7 @@ nav {
   position: relative;
 }
 
-.logo {
+#logo {
   width: 100px;
   margin-top: 10px;
   margin-left: 50px;
@@ -66,7 +66,7 @@ nav {
   color: var(--cor-cinza1);
 }
 
-.a1 {
+#login1 {
   padding: 15px;
 }
 
