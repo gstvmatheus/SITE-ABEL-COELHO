@@ -23,7 +23,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-#navbar-container {
+header {
   width: 100%;
   height: 100%;
   background-color: var(--cor-branco1);
@@ -363,7 +363,7 @@ hr {
 
 /*mobile*/
 @media (max-width: 805px) {
-  #navbar-container {
+  header {
     height: 575px;
   }
 
@@ -373,7 +373,7 @@ hr {
   }
 
   #logo {
-    margin: 10px 0;
+    margin: 0 auto;
   }
 
   .navbar-items {
