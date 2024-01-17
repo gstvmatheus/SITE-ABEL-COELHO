@@ -37,6 +37,8 @@ nav {
   width: 100px;
   margin-top: 10px;
   margin-left: 50px;
+  color: var(--cor-branco1);
+  display: inline-block;
 }
 
 .navbar-items {
@@ -68,6 +70,13 @@ nav {
 
 #login1 {
   padding: 15px;
+  color: var(--cor-branco1);
+  background-color: var(--cor-preto1);
+  border-radius: 10px;
+}
+
+#login1:hover {
+  background-color: var(--cor-cinza1);
 }
 
 .slider {
@@ -304,6 +313,12 @@ hr {
   padding-bottom: 20px;
 }
 
+.download {
+  font-size: 1.2rem;
+  margin: 0 40%;
+  padding-bottom: 20px;
+}
+
 .rodape {
   background-color: var(--cor-preto1);
   color: var(--cor-branco1);
@@ -348,15 +363,57 @@ hr {
 
 /*mobile*/
 @media (max-width: 805px) {
+  #navbar-container {
+    height: 575px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #logo {
+    margin: 10px 0;
+  }
+
+  .navbar-items {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-items li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  #login1 {
+    padding: 15px;
+  }
+
+  .news {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .news-item {
+    width: 80%;
+    padding: 10px 10%;
+    display: block;
+    text-align: center;
+  }
+
+  .rodape-div {
+    display: flex;
+    flex-direction: column;
+  }
+
   .rodape-div-1, .rodape-div-2, .rodape-div-3 {
       width: 50%;
       padding: 10px;
       display: block;
-      display: flex;
-      justify-content: center;
       text-align: center;
-  }
-  .rodape-div{
       padding: 60px 25% 40px 25%;
   }
 }
