@@ -314,9 +314,9 @@ hr {
 }
 
 .download {
-  font-size: 1.2rem;
-  margin: 0 40%;
+  font-size: 1.5rem;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .rodape {
@@ -373,13 +373,17 @@ hr {
   }
 
   #logo {
+    display: inline-block;
+    position: absolute;
     margin: 0 auto;
+    left: 38%;
   }
 
   .navbar-items {
     position: static;
     text-align: center;
     width: 100%;
+    margin-top: 75px;
   }
 
   .navbar-items li {
@@ -418,7 +422,7 @@ hr {
   }
 }
 
-
+/*scrollbar*/
 ::-webkit-scrollbar {
   background: transparent;
   width: 10px;
