@@ -6,7 +6,7 @@
 }
 
 html {
-  font-size: 62.5%; 
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
@@ -14,8 +14,8 @@ html {
   --cor-branco1: #f5f5f5;
   --cor-preto1: #363636;
   --cor-cinza1: #ccc;
-  --cor-azul1: #1D1F5C;
-  --cor-azul2: #2E3192;
+  --cor-azul1: #1d1f5c;
+  --cor-azul2: #2e3192;
 }
 
 body {
@@ -54,7 +54,7 @@ nav {
   display: inline-block;
   text-transform: uppercase;
   margin-left: 30px;
-  font-size: 2.0rem;
+  font-size: 2rem;
   margin-top: 10px;
 }
 
@@ -131,7 +131,7 @@ nav {
 .title-news {
   text-align: center;
   color: var(--cor-branco1);
-  font-size: 2.0rem;
+  font-size: 2rem;
   padding-bottom: 25px;
 }
 
@@ -157,7 +157,6 @@ nav {
   text-decoration: none;
   color: inherit;
   transition: 0.5s;
-
 }
 
 .news-item a:hover {
@@ -165,7 +164,7 @@ nav {
 }
 
 .news-item h3 {
-  font-size: 2.0rem;
+  font-size: 2rem;
   margin: 0 0 10px 0;
 }
 
@@ -178,7 +177,7 @@ nav {
   text-align: center;
   background-color: var(--cor-branco1);
   color: var(--cor-preto1);
-  font-size: 2.0rem;
+  font-size: 2rem;
   padding: 25px 0;
 }
 
@@ -206,7 +205,7 @@ nav {
 }
 
 span {
-  color: #2E3094;
+  color: #2e3094;
   font-size: 2.5rem;
 }
 
@@ -217,7 +216,7 @@ span {
 .title-history {
   text-align: center;
   color: var(--cor-branco1);
-  font-size: 2.0rem;
+  font-size: 2rem;
   padding-bottom: 25px;
 }
 
@@ -238,6 +237,29 @@ span {
   margin-left: 25%;
 }
 
+.information {
+  text-align: center;
+}
+
+.information-p {
+  color: var(--cor-branco1);
+  font-size: 1.6rem;
+  width: 50%;
+  line-height: 2.5rem;
+  margin-left: 25%;
+  padding-bottom: 20px;
+}
+
+.information-p1 {
+  color: var(--cor-branco1);
+  font-size: 1.6rem;
+  width: 50%;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  margin-left: 25%;
+  padding-bottom: 20px;
+}
+
 .provide {
   background-color: var(--cor-branco1);
   padding: 25px 0;
@@ -246,7 +268,7 @@ span {
 .title-provide {
   text-align: center;
   color: var(--cor-preto1);
-  font-size: 2.0rem;
+  font-size: 2rem;
   padding-bottom: 25px;
 }
 
@@ -260,7 +282,7 @@ hr {
   width: 50%;
   line-height: 2.5rem;
   margin-left: 25%;
-  list-style-type: none
+  list-style-type: none;
 }
 
 .schedules {
@@ -270,7 +292,7 @@ hr {
 .title-schedules {
   text-align: center;
   color: var(--cor-branco1);
-  font-size: 2.0rem;
+  font-size: 2rem;
   padding-bottom: 25px;
 }
 
@@ -284,19 +306,19 @@ hr {
 }
 
 .technician {
-  background-color: var(--cor-branco1);
+  background-color: var(--cor-preto1);
   padding: 25px 0;
 }
 
 .title-technician {
   text-align: center;
-  color: var(--cor-preto1);
-  font-size: 2.0rem;
+  color: var(--cor-branco1);
+  font-size: 2rem;
   padding-bottom: 25px;
 }
 
 .our-technician {
-  color: var(--cor-preto1);
+  color: var(--cor-branco1);
   font-size: 1.6rem;
   width: 50%;
   line-height: 2.5rem;
@@ -305,7 +327,7 @@ hr {
 }
 
 .our-technician-li {
-  color: var(--cor-preto1);
+  color: var(--cor-branco1);
   font-size: 1.6rem;
   width: 50%;
   line-height: 2.5rem;
@@ -320,15 +342,15 @@ hr {
 }
 
 .rodape {
-  background-color: var(--cor-preto1);
-  color: var(--cor-branco1);
+  background-color: var(--cor-branco1);
+  color: var(--cor-preto1);
   height: auto;
   width: 100%;
   font-size: 1.6rem;
 }
 .rodape a {
   text-decoration: none;
-  color: var(--cor-branco1);
+  color: var(--cor-preto1);
 }
 
 .rodape-div {
@@ -340,7 +362,9 @@ hr {
   padding: 25px 0 10px 0;
 }
 
-.rodape-div-1, .rodape-div-2, .rodape-div-3 {
+.rodape-div-1,
+.rodape-div-2,
+.rodape-div-3 {
   display: flex;
   width: calc(100% / 3 - 20px);
   display: flex;
@@ -350,14 +374,14 @@ hr {
 
 .rodape span {
   font-size: 20px;
-  color: var(--cor-preto1);
+  color: var(--cor-branco1);
 }
 
 .rodape-direitos {
-  background-color: var(--cor-branco1);
+  background-color: var(--cor-preto1);
   padding: 10px 0;
   text-align: center;
-  color: var(--cor-preto1);
+  color: var(--cor-branco1);
   width: 100%;
 }
 
@@ -413,12 +437,14 @@ hr {
     flex-direction: column;
   }
 
-  .rodape-div-1, .rodape-div-2, .rodape-div-3 {
-      width: 50%;
-      padding: 10px;
-      display: block;
-      text-align: center;
-      padding: 60px 25% 40px 25%;
+  .rodape-div-1,
+  .rodape-div-2,
+  .rodape-div-3 {
+    width: 50%;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    padding: 60px 25% 40px 25%;
   }
 }
 
@@ -430,7 +456,7 @@ hr {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #D3D1CB;
+  background: #d3d1cb;
 }
 
 ::-webkit-scrollbar-track {
