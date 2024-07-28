@@ -16,6 +16,7 @@ html {
   --cor-cinza1: #ccc;
   --cor-azul1: #1d1f5c;
   --cor-azul2: #2e3192;
+  --cor-azul3: #9a9de7;
 }
 
 body {
@@ -335,10 +336,20 @@ hr {
   padding-bottom: 20px;
 }
 
+.download1 {
+  text-align: center;
+}
+
 .download {
   font-size: 1.5rem;
   padding-bottom: 20px;
-  text-align: center;
+  color: var(--cor-branco1);
+}
+
+.download:hover {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  color: var(--cor-azul3);
 }
 
 .rodape {
