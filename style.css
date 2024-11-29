@@ -383,6 +383,10 @@ hr {
   padding: 10px;
 }
 
+.rodape-div-2-coluna p {
+  color: var(--cor-branco1);
+}
+
 .rodape span {
   font-size: 20px;
   color: var(--cor-branco1);
